@@ -1,0 +1,4 @@
+FROM debian
+
+COPY hello_world /hello_world
+ENTRYPOINT ["/hello_world"]
